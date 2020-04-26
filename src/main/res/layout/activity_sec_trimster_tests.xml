@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_pre"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00000000"
+        android:hint=" Second trimester"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Biochemical Survey of "
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="348dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="The test checks whether secreted from the placenta or from the fetus PAPPA, BhCG.
+The unification of the two tests helps to raise the test accuracy to 85 %.
+ If the woman performs the test at 16-18 weeks, the accuracy will be 90%."
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Early Systems Review-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="348dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="The test examine the integrity of the fetal body's and its function.
+Performed during week 14-16.
+Price - The test is not included in the health basket."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="348dp"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Alpha fetoprotein-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="This test examines three proteins in the mother's blood and calculates the result with fetal age, mother's age, weight, and other data.
+The test identifies more than 65% of fetuses at risk of Down syndrome and other malformations.
+*** If we add a fourth protein test, we can find 70-75 %.
+Performed during week 16-19
+Price - a deductible of 62 NIS. (For the fourth protein there is an extra charge)."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="348dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Amniotic fluid test -"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="The test checks chromosomal abnormalities in the fetus such as Down syndrome. In the laboratory, the cells are grown to examine the chromosomes of the fetus in order to check their propriety in terms of structure and number.
+The test can provide an unequivocal diagnosis for Down's syndrome.
+Performed during week 20-16
+Price - amniocentesis test is included in the health basket and is free of charge for women over the age of 35 at the time of pregnancy or pregnancy in risk."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Late Systems Review -"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part5"
+                    android:layout_width="399dp"
+                    android:layout_height="221dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="Testing the integrity of the fetal body systems and their functioning. The test is performed by an ultrasound device.
+The test is important because there are systems that develop only after the 15th week of pregnancy, and there are defects that develop slowly and are expressed only after the 20th week of pregnancy.
+Performed during week 19-24
+Price - free (quarterly fee of 34 NIS)."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to tests list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main tests page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

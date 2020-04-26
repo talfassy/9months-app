@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/location6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+    android:id="@+id/Image_Logo"
+    android:layout_width="140dp"
+    android:layout_height="70dp"
+    android:layout_gravity="right|top"
+    android:layout_marginTop="45dp"
+    app:srcCompat="@drawable/mini_logo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/northe"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100px"
+        android:background="#70FFA0C1"
+        android:hint="Northern region"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/central"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#70FFA0C1"
+            android:hint="Central region"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/jerusalem"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#70FFA0C1"
+            android:hint="Jerusalem area"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Southern"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#70FFA0C1"
+            android:hint="Southern region"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

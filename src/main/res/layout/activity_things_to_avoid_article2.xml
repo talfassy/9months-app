@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".thingsToAvoidArticle2">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Smoking alcohol during pregnancy"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="182dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Smoking and exposure to smoking during pregnancy are harmful to the woman and may harm the fetus. Even when the woman does not smoke herself but is exposed to smoke in the office or at home, the toxins accumulate in the mother's blood and pass through the umbilical cord directly to the fetus.
+"
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/prat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="222dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Smoking and exposure to smoking during pregnancy can harm the mother and fetus:
+1.	 Impairment of fetal development
+2.	 Low weight at birth
+3.	 Expiry of birth
+4.	 Birth defects, especially your life and cleft lip
+5.	 Respiratory diseases in the baby and the mother
+6.	 Increased Risk of Crib Death Syndrome (SIDS)
+7.	 Increase the risk of learning difficulties such as ADHD in the child
+
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Important and encouraging to know: During pregnancy many women manage to quit smoking."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

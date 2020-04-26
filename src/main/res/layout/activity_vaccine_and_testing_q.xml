@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/tilePage"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawableStart="@drawable/vaccinationlogo"
+        android:hint="  Vaccine and Testing "
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What tests should be done during pregnancy?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="129dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="75dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="There are a wide variety of tests to be performed, we recommend that you access the information on the tests found in our tests tab, where all the tests to be performed according to the trimester you are in."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="200dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Is it possible to get vaccinated during pregnancy?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="250sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Yes, certainly, if it is a vaccine that consists of an inactivated virus, such as a flu vaccine or a pertussis vaccine.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="330sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The vaccine is dangerous to the fetus?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="360dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Not at all, thats how he gets antibodies in the first months of his life, when his immune system is still underdeveloped.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="440sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Why does my immune system weaken during pregnancy?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="86dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="490sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="During pregnancy, the immune system is in a mild state of repression to serve the purpose of fetal growth under optimal conditions
+
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="560sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="At what stage of pregnancy should you be vaccinated?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part5"
+                        android:layout_width="400dp"
+                        android:layout_height="66dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="610sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="You can get vaccinated at any stage, from pregnancy planning and throughout pregnancy."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="670sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What types of testing are exists?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part6"
+                        android:layout_width="400dp"
+                        android:layout_height="121dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="710sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Pregnancy follow-up and medical examinations in pregnancy, screening tests to detect Down syndrome and other malformations and diagnostic tests to detect Down Syndrome and other malformations.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="830sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What are the vaccines that a pregnant woman is recommended to perform (during pregnancy)?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part7"
+                        android:layout_width="400dp"
+                        android:layout_height="69dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="880sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Influenza vaccine and pertussis vaccine.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/goback"
+                        android:layout_width="330dp"
+                        android:layout_marginTop="960dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColorHint="#FFFFFF"
+                        android:layout_marginHorizontal="100px"
+                        android:background="#95F5B5C3"
+                        android:hint="Return to QA list"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

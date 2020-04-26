@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+
+    <TextView
+        android:id="@+id/loadingImg"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:drawableLeft="@drawable/loading"
+
+        />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:text="loading.."
+        />
+
+
+
+</LinearLayout>

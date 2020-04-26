@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baby2"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Image_Logo"
+        android:layout_width="216dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/emailAd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100px"
+        android:drawableStart="@drawable/user"
+        android:hint="    enter your email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/passwordAd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100px"
+        android:drawableStart="@drawable/key"
+        android:hint="    enter password"
+        android:textColorHint="#FFFFFF"
+        android:inputType="numberPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logButton"
+        android:textColor="#FFFFFF"
+        android:layout_width="300dp"
+        android:layout_height="120px"
+        android:layout_gravity="center_horizontal"
+        android:background="#80000000"
+        android:text="Login"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#80000000 "
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="create a new account" />
+
+
+</LinearLayout>

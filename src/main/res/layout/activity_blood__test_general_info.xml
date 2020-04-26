@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+ <TextView
+     android:id="@+id/pageTitle"
+     android:layout_width="340dp"
+     android:layout_height="60dp"
+     android:textColor="#000000"
+   android:layout_marginTop="20dp"
+     android:textStyle="bold"
+     android:textAllCaps="false"
+     android:textSize="22dp"
+     android:layout_gravity="center_horizontal"
+     android:text="Blood tests, what are we actually testing?"
+     />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Glucose -"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="55dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" This test measures blood sugar levels. Sugar is the energy source available to the body's cells and is the source of the carbohydrate breakdown we eat. The body's ability to use sugar depends on the insulin produced in the pancreas.
+Sugar levels rise slightly after eating. In response, insulin is secreted, which infuses blood sugar into cells and lowers blood sugar. Diabetes is a disorder of the body's metabolism that causes the blood sugar to be higher than normal.
+A proper and balanced blood sugar level is critical for the body, which cannot function without the use of sugar.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_1"
+                        android:layout_width="400dp"
+                        android:layout_height="217dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="380dp"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="During pregnancy - Fasting glucose levels higher than 126 mg / dc are considered diabetes mellitus. Glucose above 95 mg / dL requires a referral to the treating physician. Due to an increase in estrogen and progesterone levels at the beginning of pregnancy there is a decrease in glucose values, so low values ​​are considered normal at this stage.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="590sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="WBC, white blood cells "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="620sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="White blood cells are also called leukocytes. White blood cells are responsible for protecting the body. They fight bacteria-caused infections.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="730sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - The number of leukocytes is higher in a pregnant woman and levels of 16,000-14,000 are considered normal in pregnancy. At birth the number can normally reach up to 25,000.
+
+"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="850sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="RBC- red blood cells"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="880sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The red cells are the main component of the blood that also gives it the red color. Their role is very important in the respiratory process - they bind oxygen from the lungs (through hemoglobin) and transport it to the body's tissues, absorbing carbon dioxide from the various body cells and emitting it back into the lungs.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_3"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1080sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - Naturally, during pregnancy there is a decrease in the concentration of red blood cells and hemoglobin. There is 2 reasons for that:
+First, the pregnancy itself causes an increase in blood volume.
+Second, the developing embryo utilizes the iron stores in the body, thus also reducing the amount of hemoglobin.
+"
+                        />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="41dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1270sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Hemoglobin "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="167dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1320sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Hemoglobin is a molecule found in the red blood cell that carries oxygen from the lungs to the tissues in the body. Values ​​lower than the norm can indicate anemia. Higher values ​​from the norm can indicate a plurality of red blood cells or as a result of dehydration after fasting without drinking fluids.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_4"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1495sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - Pregnancy anemia is defined when the value of hemoglobin is less than 11 g / dl.
+The process is also due to an increase in plasma (blood fluid) and an increase in red blood cells. The greater rise in plasma causes hemoglobin concentration in pregnant women to decrease slightly.
+The causes of anemia can be, among others, deficiency of:  iron, vitamin B12 and folic acid, blood loss and destruction of blood cells.
+"
+                        />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="348dp"
+                        android:layout_height="41dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1740sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" HCT, hematocrit- "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part5"
+                        android:layout_width="400dp"
+                        android:layout_height="167dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1770sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" The hematocrit reflects both the number of red blood cells and their volume. An increase in the number of red blood cells or an increase in spherical volume will be reflected in the increase in hematocrit value, and vice versa.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_5"
+                        android:layout_width="400dp"
+                        android:layout_height="118dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1910sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - Pregnancy blood volume rises from the first trimester and reaches up to 45% -40% above the norm in weeks 34-32. Due to the greate increase in plasma, hematocrit in pregnant women is slightly down.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="348dp"
+                        android:layout_height="41dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2045sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" MCV, mean corpuscular- "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part6"
+                        android:layout_width="400dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2080sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="On examination, we find out what the average volume of red blood cell is. The spherical volume distinguishes between to anemia types:
+Microcytic anemia, normocytic anemia or macrocytic anemia.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_6"
+                        android:layout_width="400dp"
+                        android:layout_height="204dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2220sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - Normal values ​​for pregnancy are around 97-79. A higher value can pointed to vitamin B12 deficiency or folic acid deficiency. A lower value than the norm can indicate iron deficiency or a genetic defect in hemoglobin production, as in the case of thalassemia. Women of certain origins whose MCVs are less than 78 will be referred for further testing for thalassemia.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_width="348dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2430sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="MCH"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part7"
+                        android:layout_width="400dp"
+                        android:layout_height="166dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2480sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="In this test we find out what the average amount of hemoglobin is in each red blood cell.
+Values ​​below the norm may indicate iron deficiency or hemoglobin production disruption.
+Higher values ​​than the norm may indicate vitamin B12 deficiency, or folic acid deficiency.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_7"
+                        android:layout_width="400dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2650sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy- MCH norm values at pregnancy are similar to those for a non-pregnant woman (37-33 pg). So are the MCHC values, whose norm range is similar to that of a non-pregnant woman (33 - 36.7 pg).
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/titl8"
+                        android:layout_width="348dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2780sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="RDW-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part8"
+                        android:layout_width="400dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2815sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Checking the variance of red blood cell volume.
+We test whether most red blood cells are similar in volume, or vice versa - different. The result helps the doctor find the cause of anemia (if any).
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_8"
+                        android:layout_width="400dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2950sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy- RDW norm values ​​in pregnancy are similar to those of non-pregnant women (16-11). Deviation from the norm does not necessarily indicate illness.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/titl9"
+                        android:layout_width="348dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3060sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="platelets-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part9"
+                        android:layout_width="400dp"
+                        android:layout_height="143dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3100sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" Checking amount of the platelets in the blood. Blood platelets are components of the blood that take part in the blood clotting process - the platelets are responsible for the formation of the primary blood clot, thus contributing to the cessation of bleeding in case of injury.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_9"
+                        android:layout_width="400dp"
+                        android:layout_height="311dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3260sp"
+                        android:layout_weight="3180"
+                        android:paddingLeft="30dp"
+                        android:text=" During pregnancy- The platelet count (thrombocyte) is lower in pregnancy, mainly due to an increase in blood volume and dilution. This is more common in the third trimester. A value less than 150,000 platelets per microliter is defined as thrombocytopenia (low platelets).
+When platelet levels are below 80,000 to 100,000, there is a problem in providing epidural.
+A value greater than 450,000 microliters per microlitre indicates thrombocytosis (a high level of platelets), which can be due to iron deficiency, bleeding, infectious disease, connective tissue disease, and tumors.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/titl10"
+                        android:layout_width="348dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3580sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="MPV-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/part10"
+                        android:layout_width="400dp"
+                        android:layout_height="92dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3620sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" Checking average platelet volume. In most cases, an exception in the values ​​of this test does not indicate a problem.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/during_pregnancy_10"
+                        android:layout_width="400dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="3710sp"
+                        android:layout_weight="3180"
+                        android:paddingLeft="30dp"
+                        android:text="During pregnancy - MPV norm values ​​in pregnancy are similar to those of a non-pregnant woman (fl 13-4). Deviation from the norm does not necessarily indicate illness.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/returnTestPage"
+                        android:layout_width="400dp"
+                        android:layout_height="50dp"
+                        android:text="return to tests page"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="4220dp"
+                        />
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".thingsToAvoidArticle1">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Drinking alcohol during pregnancy"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="248dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Exposure to alcohol during pregnancy can cause a variety of irreversible damage to the fetus, some of which may only become apparent later on with the child's growth and development.
+Because the damage is caused by alcohol drinking during pregnancy, it is preventable in 100% of cases if the woman avoids drinking alcoholic beverages during pregnancy.
+"
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/prat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="222dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="First-trimester exposure to alcohol causes structural changes that characterize the syndrome (such as facial deformities), and changes in central nervous system growth and disorders can occur during any period of pregnancy.
+The placenta allows a completely free passage of alcohol from the woman to the fetus. The longer the exposure to alcohol, the greater the risk of harm to the fetus.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="149dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="The fetal alcohol syndrome can manifest in brain, heart, limbs, eyes, ears and genitals. In addition, there will be growth problems, development problems, learning and behavior problems."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="365dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="What Are the Consequences of Drinking Alcohol in Child Behavior?
+If the woman drinks during her pregnancy, her child may suffer from brain development. This means that a child born with the syndrome will suffer from learning disabilities and have trouble restraining his behavior. For example, he may learn a new assignment and the next day he will not remember it at all. Common problems with the syndrome are: Money management difficulties and budget planning and counting difficulties, difficulty in thinking and problem solving, difficulties in internalizing mistakes, learning from previous experience and understanding the consequences, social difficulties and more.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

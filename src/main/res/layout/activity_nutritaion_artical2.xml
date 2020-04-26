@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Important omponents"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="259dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Water-
+Drinking Water should be done throughout the pregnancy (preferably two liters of fluid per day).
+Drinking water during and between meals is recommended.
+The amount of water you want varies from woman to woman and is affected by the level of physical activity and environmental conditions.
+Bright urine color is a good measure of adequate drinking.
+Water prevents dehydration and reduces the risk of fetal injury and the development of early labor."
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="399dp"
+                    android:layout_height="243dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="Foods rich in dietary fiber-
+It is recommended to eat foods containing dietary fiber at every meal.
+The fiber is found in whole grains (for example, oats and whole grain bread), in legumes, vegetables and fruits.
+During pregnancy some women suffer from constipation. Increasing intake of high-fiber foods
+ (combined with adequate drinking) can help regulate digestive activity, and is also good for preventing chronic diseases.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="244dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Calcium-rich foods-
+Calcium is a component needed for a woman and the developing fetus. Calcium is important for bone structure,
+for the functioning of the blood and muscle systems, and for building and maintaining healthy teeth. Therefore,
+ during pregnancy the body's requirement for calcium increases.
+Main sources of calcium: Milk and dairy products, sardines with bones, drinks and soy delicacies (calcium-enriched).
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="The first three months take into consideration a 2-0.5 kg increase."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

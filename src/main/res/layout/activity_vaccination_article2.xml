@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".vaccinationArticle2">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Vaccinations during pregnancy"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="124dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="It is possible, and even advisable, to vaccinate women with certain non-live vaccines during pregnancy. The type of vaccine that is given to pregnant women is of the inactivated (bacterial / viral) or toxoid (toxin) type."
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="399dp"
+                    android:layout_height="368dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="1. Flu vaccine-
+It is recommended that every pregnant woman, in any pregnancy, receive a flu vaccine.
+Pregnant women are at risk of getting seriously ill with the flu and suffering from its complications. That's why it's important for a pregnant woman to get the flu vaccine.
+A pregnant woman who is vaccinated against the flu during pregnancy vaccines not only herself but also the fetus. Infants whose mothers are vaccinated during pregnancy have less respiratory illness in general, less flu in particular, and fewer hospitalizations. Studies show that the flu vaccine given to pregnant women reduces the flu incidence of infants up to 6 months by 63%.
+Flu vaccine can be obtained at the HMO, free of charge."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="468dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="2. Pertussis vaccine
+It is recommended that every pregnant woman, in all pregnancies, receive a pertussis vaccine, preferably between weeks 27 - 36 for pregnancy.
+Pertussis is dangerous for infants and toddlers due to severe complications of pneumonia and cerebral inflammation that can result from the disease.
+The baby cannot be vaccinated until age two months and until receiving several doses of the vaccine against the disease.
+Giving the vaccine to a pregnant woman protects the baby in two ways:
+By transmitting anti-pertussis antibodies to the fetus that will protect it from the disease after it is born.
+By protecting the mother so that she does not begin and transmit the disease to the baby. Pertussis vaccine is included in the health basket for pregnant women and can be received at the HMO for deductibles.
+The pertussis vaccine can be combined with a diphtheria and tetanus vaccine and sometimes with a polio vaccine.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="193dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="3. Vaccinations given to pregnant women in special cases-
+ 1. Tetanus and diphtheria vaccine - given after injury or before traveling abroad.
+ 2. Vaccinations for travelers abroad - can be given to a pregnant woman who is planning to travel abroad.
+It is recommended that you consult a travelers clinic for the recommended vaccinations.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/res-auto"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/marbel"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+
+<ImageView
+    android:id="@+id/Image_Logo"
+    android:layout_width="140dp"
+    android:layout_height="70dp"
+    android:layout_gravity="right|top"
+    android:layout_marginTop="30dp"
+    android:background="#00000000"
+    android:shadowColor="#D2F8EF"
+    app:srcCompat="@drawable/mini_logo" />
+
+<TextView
+    android:id="@+id/vaccinationsArticles"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginHorizontal="100px"
+    android:layout_marginTop="20dp"
+    android:background="#00000000"
+    android:drawableStart="@drawable/nutritondnddiet"
+    android:hint="  Nutriton and diet articals"
+    android:inputType="text"
+    android:shadowColor="#D2F8EF"
+    android:textColorHighlight="#FFEBCD"
+    android:textColorHint="#202020"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Weight_gain"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100px"
+        android:textColorHint="#030303"
+        android:background="#00000000"
+        android:drawableStart="@drawable/circleicon"
+
+        android:hint="  Weight gain during pregnancy"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Components"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:textColorHint="#030303"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100px"
+        android:background="#00000000"
+        android:drawableStart="@drawable/circleicon"
+        android:hint="  Components that are important to incorporate in the nutriton for the pregnancy period"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Nutritional_supplements"
+        android:layout_width="370dp"
+        android:layout_marginTop="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#030303"
+        android:layout_marginHorizontal="100px"
+        android:background="#00000000"
+        android:drawableStart="@drawable/circleicon"
+        android:hint="  Nutritional supplements recommended"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Damagingfoods"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#030303"
+        android:layout_marginHorizontal="100px"
+        android:background="#00000000"
+        android:drawableStart="@drawable/circleicon"
+        android:hint="  Damaging foods during pregnancy"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
+
+
+</LinearLayout>
+

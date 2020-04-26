@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".highRiskArticle3">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hospital1"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Kaplan Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital1_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Pasternak 1 Rehovot"/>
+
+                <TextView
+                    android:id="@+id/hospital1_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="hospitals.clalit.co.il/kaplan/he/med_units/women_maternity/Pages/midwifery.aspx"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/hospital2"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Assuta Hospital"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital2_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Harefoae Street 7 Ashdod"
+                    />
+                <TextView
+                    android:id="@+id/hospital2_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.assutaashdod.co.il/?catid=%7B8EE51910-A8FB-4815-91BF-0987D50FD28A%7D"/>
+
+
+                <TextView
+                    android:id="@+id/hospital3"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Barzilai Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital3_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Histadrut 2 Ashkelon"
+                    />
+                <TextView
+                    android:id="@+id/hospital3_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="maternity.baby-land.co.il/maternity"/>
+
+
+                <TextView
+                    android:id="@+id/hospital4"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Soroka Medical Center, Saban Midwifery Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital4_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Addres: Yitzhak Rager Boulevard 151 Beersheba"
+                    />
+                <TextView
+                    android:id="@+id/hospital4_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="hospitals.clalit.co.il/soroka/he/med-units/ob-gyn-division/Pages/general-information.aspx"/>
+
+                <TextView
+                    android:id="@+id/hospital5"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Yoseftal Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital5_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Yotam way Eilat"/>
+
+                <TextView
+                    android:id="@+id/hospital5_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="hospitals.clalit.co.il/joseftal/he/med_units/maternity/Pages/maternity_dep.aspx"/>
+
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+
+                <Button
+                    android:id="@+id/returnBtn"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="return home page"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:background="#70FFA0C1"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".highRiskArticle4">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="1000dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Group B Streptococcus-GBS"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="348dp"
+                    android:layout_height="187dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Streptococcus bacterium GBS (B) is a bacterium that is considered to be one of the major causes of meningitis, pneumonia and acute morbidity in infants. Premature infants are at greater risk for GBS morbidity, although most GBS patients are babies born after full pregnancy."
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="348dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="The GBS bacterium is found in the throat, intestines and vagina in many women and does not cause any disease at all. A woman who has been tested and carried by the bacterium before pregnancy, does not necessarily have to be infected during the current pregnancy. "
+
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="167dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="A woman who has the bacterium in urine or vaginal culture during pregnancy, will be treated with antibiotics during pregnancy and also during childbirth. A woman who had previously given birth to a baby with GBS will be treated with antibiotics during her current birth. "
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="232dp"
+
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Treatment for GBS Bacteria- Most infant morbidity can be prevented by taking antibiotics during childbirth. Morbidity cannot be prevented by taking antibiotics before delivery, due to the prevalence of the bacterium and its tendency to recur. When exposing the newborn to the vaginal environment, the newborn may become ill, so it is important to give treatment during delivery. "
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

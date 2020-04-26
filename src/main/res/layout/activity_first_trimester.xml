@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_firstTrimseter"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00000000"
+        android:hint=" First trimester"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Nurse follow-up"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="348dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Measuring blood pressure, weight, protein in the urine and edema.
+Should be performed once a month until the 36th week. Followed by a frequency of two weeks.
+Price – Free
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Pulse וltrasound-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="348dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="In the first ultrasound, the doctor examines the location of the pregnancy bag (inside the uterus or outside it), the fetus's pulse (to make sure it is alive), the number of fetuses and the gestational age.
+The test takes place on week’s 6-12.
+Price - Free (a quarterly fee of 34 NIS)"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="348dp"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Blood and urine tests-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="126dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Blood counts for checking amount of glucose, general urine tests to syphilis, and other tests depending on the condition of the woman (eg HIV, CMV, thyroid gland, etc.).
+The test takes place on week’s 6-12.
+Price – Free"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="348dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="CVS-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="The test checks chromosomal abnormalities in the fetus, such as Down syndrome.  The doctor taking small sample of the placenta using a needle. In the laboratory, the cells are grown and then embryos' chromosomes are examined. The goal is to check the propriety in both structure and number of this cells. This is an unequivocal examination of genetic defects.
+The test is performed prior to amniocentesis and therefore early defects can be detected.
+Risk of miscarriage is 1 %.
+Performed during week 13-10.
+Price - The test is included in the health basket and is free of charge for women over the age of 35 at the time of pregnancy or as recommended by a geneticist."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="348dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Nuchal translucency screening-"
+                    android:textColor="#fd9ebd"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/part5"
+                    android:layout_width="348dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="An ultrasound test that examines the thickness of the fluid that accumulates in the fetal nape. The test can detect 70 percent of the fetal which sufferers from Down syndrome.
+Takes place during week 11-14.
+-a self-participation of 45 NIS."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to tests list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main tests page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

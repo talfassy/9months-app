@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <EditText
+        android:id="@+id/tilePage"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawableStart="@drawable/breast"
+        android:hint=" Breastfeeding"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="27dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Why is breastfeeding important? "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="375dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="55dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Breast milk helps protect babies from disease and infections, and is essential for growth and development. Breastfeeding also protects the mother from illness and strengthens the relationship between the mother and her baby. Breast milk is accessible, and available, and breastfeeding is cost effective.
+How breastfeeding is beneficial to the baby? Breastfeeding strengthens the baby's immune system and helps protect against illness like
+Gastrointestinal infections, ear infections, infections of the lower respiratory tract, necrotic bowel inflammation, premature closure defect.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="27dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="380dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How will I know how to breastfeed?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="419dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="410sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" It is advisable to try to breastfeed the newborn immediately after birth, if the birth has passed safely and properly. The baby should be placed in skin contact on the skin of the mother's stomach and slowly battle the breast and try to breastfeed. At this point, right after birth, the baby is very alert and this is the right time for the first nursing experience. The purpose of this experience is to allow the process to begin and allow the opportunity to try more important than a particular technique. Initial breastfeeding experience in the delivery room is very important and helps with breastfeeding success later. It is also possible to attend a breastfeeding preparation workshop while pregnant. The workshops are offered in some hospitals, health funds and private settings."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="810sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Does it matter which breast I breastfeed?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="860sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="During the day you should breastfeed in both breasts to stimulate milk production. At each meal, you should begins with one breast and after the baby disengages itself from the breast,
+the second breast should be offered to the baby. If he is not interested, it is advisable to start with this breast at the next lactation.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1020sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How will i know when my baby is hungry?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="434dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1075sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" In order to establish successful breastfeeding, breastfeeding should be allowed on demand, even if not at regular intervals.
+In the first month, the average breastfeeding frequency is 8 to 12 daily breastfeeding at uneven intervals.
+It is important to identify early signs of hunger in the baby: the baby will show signs of search - alertness, head-to-head movement, insertion of hands into mouth and sucking movements. Crying is a late sign of hunger, and you shouldn't wait to cry before breastfeeding.
+At each breastfeeding, it is recommended to breastfeed the baby until he or she leaves the breast himself or falls asleep. The length of each lactation varies.
+Feeding the baby on demand and not by quantities or hours teaches him about a hunger-eating-satiety mechanism that is an important mechanism for reducing the risk of obesity.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <Button
+                        android:id="@+id/goback"
+                        android:layout_width="330dp"
+                        android:layout_marginTop="1575dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColorHint="#FFFFFF"
+                        android:layout_marginHorizontal="100px"
+                        android:background="#95F5B5C3"
+                        android:hint="Return to QA list"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

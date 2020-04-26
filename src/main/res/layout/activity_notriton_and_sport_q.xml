@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <EditText
+        android:id="@+id/tilePage"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawableStart="@drawable/nutritondnddiet"
+        android:hint="  Nutriton and sport"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="348dp"
+            android:layout_height="27dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Can the food I eat affect the fetus?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/part1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Studies have shown that a woman's nutritional status during pregnancy, her weight gain, and her dietary habits can affect a baby's cognitive development, the baby tendency to obesity during life, cardiovascular disease, and more."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="348dp"
+            android:layout_height="27dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="220dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Can the food I eat affect the fetus?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/part2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="240sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Drink plenty of water, combine foods rich in dietary fiber and calcium. It is also recommended to consume supplements that help during pregnancy (read more in the varied articles we have about nutrition in the app)."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="370sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="What supplements are recommended for consumption during pregnancy? "
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/part3"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="430sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="The recommended supplements are iodine, folate acid, vitamin D and iron supplement."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="500sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Why is caffeine not good for pregnant women?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/part4"
+            android:layout_width="400dp"
+            android:layout_height="199dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="550sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="Caffeine acts in the body as a stimulant. During pregnancy there is a slowdown in clearing away caffeine from the mother's bodyCaffeine passes into the fetus through the placenta, and the fetus has no ability to break it down. Some studies have found that caffeine (over 150 mg caffeine per day) is associated with abortion, premature babies, and low birth weight."
+             />
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="348dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="760sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Why is folic acid intake particularly important in the first 3 months of pregnancy?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/part5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="840sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Folic acid consumption is particularly important in the three months before pregnancy and during the first three months of pregnancy, as it significantly reduces (up to 70%) the risk of neural tube defect (NTD).
+Folic acid is a group B vitamin that is essential for DNA building, which is a basic component of every cell in the body. In the first few weeks of pregnancy, the body's organs, including the brain, develop. At this point, a defect in some cells may develop into an entire system defect. Malfunction of the neural canal, from which the brain and spine develop, can cause morbidity, permanent disability and even death of the fetus. The neural canal closes about three to four weeks after fertilization, hence the importance of folic acid intake before pregnancy and the first three months of pregnancy.
+"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="348dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="1270sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="What should be my pulse during training?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/part6"
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="1320sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text=" The upper pulse line should not exceed 150 over time, because under such conditions the effort on the heart may be too great."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="348dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="1410sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="How long my training should continue ?"
+            android:textColor="#fd9ebd"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/part7"
+            android:layout_width="400dp"
+            android:layout_height="146dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="1460sp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:text="Workout times and type of workout vary according to each woman and her physical fitness level before pregnancy, but the sweeping recommendation is to exercise three to four times a week, for 20 to 30 minutes in each workout."
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/goback"
+            android:layout_width="330dp"
+            android:layout_marginTop="1710dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginHorizontal="100px"
+            android:background="#95F5B5C3"
+            android:hint="Return to QA list"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/babylegs2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Image_Logo"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="20dp"
+        android:background="#00F0F8FF"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_testsInfo"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00F0F8FF"
+        android:layout_marginTop="20dp"
+        android:hint="Please select the relevant trimester:"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/prePregnancy"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:textColorHint="#FFFFFF"
+            android:background="#60000000"
+            android:hint="Pre Pregnancy"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/firsttrimester"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:textColorHint="#FFFFFF"
+            android:background="#60000000"
+            android:hint="First trimester"
+            android:layout_marginTop="70dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/sectrimester"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#60000000"
+            android:textColorHint="#FFFFFF"
+            android:hint="Second trimester"
+            android:layout_marginTop="140dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/thiredtrimester"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#60000000"
+            android:textColorHint="#FFFFFF"
+            android:hint="Third trimester"
+            android:layout_marginTop="210dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:text="  First Trimester - weeks 1-13,  second Trimester - weeks 14-26,  third trimester - weeks 27-42" />
+
+
+
+
+    </FrameLayout>
+</LinearLayout>

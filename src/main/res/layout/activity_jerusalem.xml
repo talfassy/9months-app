@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".highRiskArticle3">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hospital1"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Hadassah Mount Hatzofim Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital1_add"
+                    android:layout_width="400dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Churchill Avenue Jerusalem"/>
+
+                <TextView
+                    android:id="@+id/hospital1_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.hadassah.org.il/laledet"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/hospital2"
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Hadassah Ein Kerem Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital2_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Kiryat Hadassah Jerusalem"
+                    />
+                <TextView
+                    android:id="@+id/hospital2_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.hadassah.org.il/medical-care"/>
+
+
+                <TextView
+                    android:id="@+id/hospital3"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Shaare Zedek Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital3_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: 12 Shmuel Bate Street Jerusalem"
+                    />
+                <TextView
+                    android:id="@+id/hospital3_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.szmc.org.il/heb/departments/birth-at-sz/about/"/>
+
+
+                <TextView
+                    android:id="@+id/hospital4"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="The hospital Beekor Holeim"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital4_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Addres: Shtrauss 5 Jerusalem"
+                    />
+                <TextView
+                    android:id="@+id/hospital4_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.tipa.co.il/articlePage.asp?articleId=738"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+
+                <Button
+                    android:id="@+id/returnBtn"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="return home page"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:background="#70FFA0C1"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

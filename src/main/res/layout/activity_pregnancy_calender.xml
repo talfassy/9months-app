@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00F0F8FF"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <EditText
+        android:id="@+id/title_test_calender"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00F0F8FF"
+        android:drawableStart="@drawable/calendaricon"
+        android:hint=" Pregnancy calendar"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/Informationaboutweeks"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#00ffffff"
+
+            android:hint="Loading data"
+            android:shadowColor="#00ffffff"
+            android:textColorHint="#575555"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp">
+
+    </LinearLayout>
+
+
+</LinearLayout>

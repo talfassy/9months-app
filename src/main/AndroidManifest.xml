@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.first.a9monthsproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".upddateWeight_num1_sub_urine"></activity>
+        <activity android:name=".updateWeight_num2_urine" />
+        <activity android:name=".recommendation_wight_sub" />
+        <activity android:name=".updateWeight_num1_sub" />
+        <activity android:name=".updateWeight_num2" />
+        <activity android:name=".pregnant_rightsQa" />
+        <activity android:name=".breastfeeding_qa" />
+        <activity android:name=".third_trim_recommendation" />
+        <activity android:name=".second_trim_recommendation" />
+        <activity android:name=".first_trim_recommendation" />
+        <activity android:name=".main_recommendation_general" />
+        <activity android:name=".main_recommendation_blood" />
+        <activity android:name=".recommendations_weight" />
+        <activity android:name=".main_recommendation_urine" />
+        <activity android:name=".urine_recommendations" />
+        <activity android:name=".Urine_testsgeneralInfo" />
+        <activity android:name=".decodingResults_urine" />
+        <activity android:name=".manual_urine_tests_results" />
+        <activity android:name=".choose_scan_or_manul_urine" />
+        <activity android:name=".scanResults_urine" />
+        <activity android:name=".chooseScanOrManual" />
+        <activity android:name=".Manual_blood_tests_result" />
+        <activity android:name=".GraphicUtils.ListOfRecommendation" />
+        <activity android:name=".blood_reccommendation" />
+        <activity android:name=".Blood_TestGeneralInfo" />
+        <activity android:name=".watch_tests_results" />
+        <activity android:name=".decodingResults" />
+        <activity android:name=".MyTestList" />
+        <activity android:name=".South" />
+        <activity android:name=".jerusalem" />
+        <activity android:name=".center" />
+        <activity android:name=".northe" />
+        <activity android:name=".deliveryRoomLocation" />
+        <activity android:name=".scanResultPage" />
+        <activity android:name=".TestsResults" />
+        <activity android:name=".babySizeFruit" />
+        <activity android:name=".hoosingOptionImageAlbum" />
+        <activity android:name=".imagesAlbum" />
+        <activity android:name=".thingsToAvoidArticle3" />
+        <activity android:name=".thingsToAvoidArticle2" />
+        <activity android:name=".thingsToAvoidArticle1" />
+        <activity android:name=".thingsToAvoidArticles" />
+        <activity android:name=".addImageToAlbum" />
+        <activity android:name=".afterBirthQA" />
+        <activity android:name=".birthQA" />
+        <activity android:name=".highRiskArticle4" />
+        <activity android:name=".highRiskArticle3" />
+        <activity android:name=".highRiskArticle2" />
+        <activity android:name=".highRiskArticle1" />
+        <activity android:name=".highRiskArticles" />
+        <activity android:name=".vaccineAndTestingQA" />
+        <activity android:name=".breastfeedingQA" />
+        <activity android:name=".notritonAndSportQA" />
+        <activity android:name=".nutritionAndSportQA" />
+        <activity android:name=".vaccinationArticle3" />
+        <activity android:name=".vaccinationArticle2" />
+        <activity android:name=".vaccinationArticle1" />
+        <activity android:name=".vaccinationsArticles" />
+        <activity android:name=".triedTrimesterTests" />
+        <activity android:name=".secTrimsterTests" />
+        <activity android:name=".prePregnancyTests" />
+        <activity android:name=".firstTrimester" />
+        <activity android:name=".test_InfoPage" />
+        <activity android:name=".sportArticle2" />
+        <activity android:name=".sportArtical1" />
+        <activity android:name=".sportsArticles" />
+        <activity android:name=".nurtiationArtical4" />
+        <activity android:name=".nutritaion_artical3" />
+        <activity android:name=".nutritaion_artical2" />
+        <activity android:name=".nutritaionArtical1" />
+        <activity android:name=".nutritonAndDietArticals" />
+        <activity android:name=".questionsAnswers" />
+        <activity android:name=".articles" />
+        <activity android:name=".pregnancyCalender" />
+        <activity android:name=".testLog" />
+        <activity android:name=".tests" />
+        <activity android:name=".recommendation" />
+        <activity android:name=".personalInformation" />
+        <activity android:name=".personalArea" />
+        <activity android:name=".registeration" />
+        <activity android:name=".homePage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>

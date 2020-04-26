@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/tilePage"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:hint="  After birth and the baby"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Why is there postpartum depression?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="60dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="After birth your life is going to change completely. This change brings with it a lot of joy and happiness, but sometimes it also brings with it a lot of confusion, and emotional difficulty.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="200dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Who is at risk for postpartum depression?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="250sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Depression around childbirth can occur in any woman regardless of age, ethnicity, income level, religion, or education.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="330sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Is there a connection between breastfeeding and postpartum depression?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="109dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="370dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="No, mothers who planned and successfully did breastfeeding, were 50% less likely to suffer from postpartum depression than mothers who designed and used food supplements
+                    "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="470sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Does breastfeeding help with depression?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="86dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="520sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Researchers estimated that the hormone that is released during breastfeeding contributes to a good mood.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="600sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What is the prevalence of neonatal jaundice?
+                        "
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part5"
+                        android:layout_width="400dp"
+                        android:layout_height="66dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="670sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text=" About 40% of infants become ill at jaundice on the second or third day after birth.
+
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="725sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How is jaundice treated?
+"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part6"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="760sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Treatment of light with special wavelength (phototherapy). Which breaks down the bilirubin in the baby's skin.
+
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="840sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What is it fontanel ?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part7"
+                        android:layout_width="400dp"
+                        android:layout_height="69dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="880dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="In the first months of life, the skull bones are still not fully connected, creating a sort of skull opening called a fontanel..
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+
+
+                    <Button
+                        android:id="@+id/goback"
+                        android:layout_width="330dp"
+                        android:layout_marginTop="1670dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColorHint="#FFFFFF"
+                        android:layout_marginHorizontal="100px"
+                        android:background="#95F5B5C3"
+                        android:hint="Return to QA list"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

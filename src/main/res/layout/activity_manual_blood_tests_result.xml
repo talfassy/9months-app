@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00FFEBCD "
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_enter"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00FFEBCD "
+        android:layout_marginTop="20dp"
+
+        android:hint=" Please enter your results:"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Glucose"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Glucose:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                    android:id="@+id/inputGlucose"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/Glucoseval"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="mg/dl"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_WBC"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="WBC:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_WBC_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_WBC_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="mic/3*10"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_RBC"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="RBC:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_RBC_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_RBC_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="mic/6*10"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_hemoglobin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Hemoglobin:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_hemoglobin_input"
+                        android:layout_width="108dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_hemoglobin_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="g/dl"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_hematocrit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Hematocrit:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_hematocrit_input"
+                        android:layout_width="108dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_hematocrit_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="%"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_MCV"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="MCV:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_MCV_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_MCV_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="fl"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_MCH"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="MCH:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_MCH_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_MCH_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="pg/cell"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_MCHC"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="MCHC:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_MCHC_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_MCHC_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="g/dl"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_RDE"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="RDW:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_RDW_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_RDW_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="%"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_platelets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Platelets:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_platelets_input"
+                        android:layout_width="108dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_platelets_val"
+                        android:layout_width="81dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="mic/3*10"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m_MPV"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="MPV:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/m_MPV_input"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/m_MPV_val"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="fl"
+                        android:textColor="#000000"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                />
+
+                <TextView
+                    android:id="@+id/check"
+                    android:layout_width="400dp"
+                    android:text=" "
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+/>
+
+                <Button
+                    android:id="@+id/addResults"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Add results"
+                    android:textSize="18dp"
+                    android:background="#80000000"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/decodingResults"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Decoding results"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#80000000"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"/>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+
+
+
+

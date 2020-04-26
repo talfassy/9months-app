@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/tilePage"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:hint="  The birth "
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What documents should I take with me to the delivery room?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="75dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Identity card of couple members, pregnancy tracking card, magnetic card of the HMO, bank account details.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="150dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How long does the contractions phase last?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="210sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The contractions phase can take a few hours, even after you enter the delivery room. Average first birth: at least 14-12 hours.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="290sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="When does birth begin?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="320dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="When there is a full cervical opening (10 cm)."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="360sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What is an epidural injection?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="86dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="390sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="An epidural is a painkiller injection to the lower back that prevents the woman from giving birth in pains."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="470sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How long does it take until the epidural injection make an impact?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part5"
+                        android:layout_width="400dp"
+                        android:layout_height="66dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="520sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The feeling of weakening of the contractions will be felt at the women approximately 20-10 minutes from the time of injection."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="600sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Are there any side effects to epidural injection?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part6"
+                        android:layout_width="400dp"
+                        android:layout_height="121dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="650sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The main side effects are: tremor, nausea and pain in the injection area. Sometimes you may also be short of breath.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="730sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What to do with the reverse fetus before delivery?
+"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part7"
+                        android:layout_width="400dp"
+                        android:layout_height="172dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="780sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="There is also a chance of spontaneous reversal until the 40th week of pregnancy, but usually if in week 37-36 the fetus is in breech condition, the recommendation is to reverse after week 37. Reversal is a process where moderate and controlled pressure is applied to the abdomen to cause fetal rotation.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title8"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="950sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="When is the umbilical cord cut?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part8"
+                        android:layout_width="400dp"
+                        android:layout_height="69dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1000sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Shortly after the baby was born, he will begin to cry, and then will be cut off from the umbilical cord.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title9"
+                        android:layout_width="348dp"
+                        android:layout_height="47dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1080sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="What to do with the placenta?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part9"
+                        android:layout_width="400dp"
+                        android:layout_height="262dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1120sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="After birth, there is a natural placenta Separation. Placental separation occurs as a result of uterine contraction, and its exit is accompanied by bleeding. After the placenta exits, the medical team will check whether it has come out intact. As long as the placenta is not separated from the uterine wall, it is not removed. There are cases where the placenta does not come out alone or there is a suspicion that the placenta did not come out intact, and then it is necessary to remove it manually.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title10"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1390sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="When does amniotic fluid explode?
+"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part10"
+                        android:layout_width="400dp"
+                        android:layout_height="69dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1440sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The explodtion of the amniotic fluid can be spontaneous or initiated during the delivery process."
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title11"
+                        android:layout_width="348dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1520sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="How do you know when to go to a delivery room?"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/part11"
+                        android:layout_width="400dp"
+                        android:layout_height="164dp"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1570sp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="When there are regular contractions and in any case of bleeding, a drop in water or a decrease in fetal movements.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+
+                    <Button
+                        android:id="@+id/goback"
+                        android:layout_width="330dp"
+                        android:layout_marginTop="1670dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColorHint="#FFFFFF"
+                        android:layout_marginHorizontal="100px"
+                        android:background="#95F5B5C3"
+                        android:hint="Return to QA list"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

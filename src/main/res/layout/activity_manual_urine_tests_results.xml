@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00FFEBCD "
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_enter"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00FFEBCD "
+        android:layout_marginTop="20dp"
+
+        android:hint=" Please enter your results:"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                android:id="@+id/Nitrite"
+                android:layout_width="3dp"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="Nitrite:"
+                android:textColor="#ff99bb"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/inputNitrite"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Leucocytes"
+                    android:layout_width="3dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:text="Leucocytes:"
+                    android:textColor="#ff99bb"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/inputLeucocytes"
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Ph"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Ph:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputPh"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ProteineUR"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Proteine UR:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputProteineUR"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Glucose"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Glucose:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputGlucose"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Keytones"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Keytones:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputKeytones"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Uroblinogen"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Uroblinogen:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputUroblinogen"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Bilirubin"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Bilirubin:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputBilirubin"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/EryThrocytes"
+                        android:layout_width="3dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="EryThrocytes:"
+                        android:textColor="#ff99bb"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/inputEryThrocytes"
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/check"
+                    android:layout_width="400dp"
+                    android:text=" "
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:id="@+id/addResults"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Add results"
+                    android:textSize="18dp"
+                    android:background="#80000000"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/decodingResults"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Decoding results"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#80000000"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"/>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

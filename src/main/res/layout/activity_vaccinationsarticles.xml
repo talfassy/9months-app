@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".vaccinationsArticles">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+    <TextView
+        android:id="@+id/vaccinationsArticles"
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:drawableStart="@drawable/vaccinationlogo"
+        android:hint="   Vaccinations in pregnancy articles"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Before"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#00000000"
+            android:drawableStart="@drawable/circleicon"
+            android:hint="Vaccinations before pregnancy"
+
+            android:textColorHint="#030303"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/During"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="80dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/circleicon"
+            android:hint="Vaccinations during pregnancy"
+            android:textColorHint="#030303"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Flu"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:layout_marginTop="180dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/circleicon"
+            android:hint="Flu vaccination during pregnancy"
+            android:textColorHint="#030303"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

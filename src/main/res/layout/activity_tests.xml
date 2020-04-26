@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pregrenttest"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="20dp"
+        android:background="#00F0F8FF"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_tests"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:background="#00F0F8FF"
+        android:drawableStart="@drawable/tests"
+        android:hint=" Tests"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/Testlog"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:textColorHint="#FFFFFF"
+            android:background="#60000000"
+            android:drawableStart="@drawable/celennder"
+            android:hint="Test log"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Information"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#60000000"
+            android:drawableStart="@drawable/info"
+            android:textColorHint="#FFFFFF"
+            android:hint="Information"
+            android:layout_marginTop="110dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/AddTestsresults"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#60000000"
+            android:drawableStart="@drawable/results"
+            android:textColorHint="#FFFFFF"
+            android:hint="Add tests results"
+            android:layout_marginTop="220dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/WatchTestsresults"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#60000000"
+            android:drawableStart="@drawable/addtest3"
+            android:textColorHint="#FFFFFF"
+            android:hint="Watch tests results"
+            android:layout_marginTop="330dp"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+</LinearLayout>

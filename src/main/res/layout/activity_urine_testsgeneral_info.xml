@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Blood tests, what are we actually testing?"
+        />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/information"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="An abnormal urine test result is a kind of alert. With the exception of a urinary tract infection, accurate identification of the source of the problem usually requires further testing.
+At the same time, proper urine testing is not conclusive proof of normal health.
+here some explanations about the urine test values –
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                       />
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="200dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="PH-cranberry in the urine-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part1"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="240dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The test shows the level of uric acid. The kidneys regulate uric acidity, but different processes in the body can affect this acidity.
+ Low level –
+ indicative of acidic urine, and may mainly indicate diabetes, diarrheas, chronic obstructive pulmonary disease, or starvation.
+high level-
+High levels may indicate vomiting, height exposure, kidney disease or urinary tract infection.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="450dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Protein-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part2"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="480dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The test shows if there are proteins in the urine. Regularly, the urine does not contain proteins, because their size does not allow passage through the kidney tubules.
+The presence of protein in the urine can be indicative of a variety of kidney diseases, preeclampsia, infectious diseases and hypertension.
+Many times the presence of protein in the urine can be due to physiological reasons, which go unnoticed and do not indicate any major illness just like heat illness (colds) or physical efforts.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="760dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Ketones-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part3"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="800dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Ketones are formed from the rapid decomposition of fatty acids. Fatty acids are released from fat stores, and quickly break down into ketones under conditions of distress of the body - such as starvation or diabetes.
+The correct value should be negative.
+A positive result of urinary ketones can indicate: diabetes, Starvation, fasting, multiple vomiting (including vomiting during pregnancy), hypothyroidism or high fever.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1030dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Nitrites-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part4"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1070dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The test teaches us about the presence or absence of nitrite in the urine. The nitrites are a byproduct of substances, which bacteria dismantle. Therefore, the presence of nitrite in the urine is an indirect sign of the presence of bacteria in the urine.
+The proper value should be negative.
+The presence of nitrites and white blood cells in the urine, combined with a burning sensation when urinating and having to urinate, often indicate urinary tract infection.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1325dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Glucose-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part5"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1360dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The purpose of this test is to discover the presence of sugar in the urine.
+In healthy people, there is usually no glucose in the urine. The presence of sugar in the urine may indicate high blood sugar levels, usually due to diabetes. But there is nothing to worry about, other conditions that cause urine sugar to appear are pregnancy and taking medicines such as antibiotics.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1570dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Bilirubin U Strip-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part6"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1610dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Bilirubin is a colorant produced in the liver as a result of the breakdown of hemoglobin from red blood cells that have completed their function.
+The proper value should be negative.
+The presence of bilirubin in the urine may indicate the development of liver disease such as gallbladder stones, biliary obstruction or viral hepatitis. In a healthy person, bilirubin is excreted through the intestine and gives the stool its dark color. When the liver is ill - among other diseases mentioned above - high levels of bilirubin accumulate. Some leak into the bloodstream and from there it is excreted in the urine.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title7"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1930dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Urobilinogen U Strip-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part7"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="1960dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The purpose of this test is to detect urovilinogen in urine. The presence of high levels of urobilinogen in the urine may indicate the presence of liver disease.
+The proper value should be noraml.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title8"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2090dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Leukocytes-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part8"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2130dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="The normal values is negitive. Occasionally a low number of white cells is recorded, most often in error.
+A high value of white blood cells in the urine may indicate urinary tract infection.
+"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/title9"
+                        android:layout_width="348dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2270dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="Erythrocytes-"
+                        android:textColor="#fd9ebd"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/part9"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="2300dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="5dp"
+                        android:text="In normal health, a small amount of red blood cells are present in the urine fluid, with the normal range being less than four red blood cells per sample examined by microscope.
+                        "
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:id="@+id/returnTestPage"
+                        android:layout_width="400dp"
+                        android:layout_height="50dp"
+                        android:text="return to tests page"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="2420dp"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:orientation="vertical"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

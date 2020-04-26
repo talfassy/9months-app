@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Nutritional supplements recommended"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="match_parent"
+                    android:layout_height="645dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Iodine-
+Iodine is recommended at a dose of 150-250 micrograms-at least a month before the woman plans to become pregnant, throughout the pregnancy and throughout the lactation period.
+Iodine is a nutrient and critical to proper health in all stages of life. It is essential for the proper functioning of the thyroid gland, especially before and during pregnancy and for lactation for the proper development of the fetal and neonatal brain.
+Main sources of iodine in food: seaweed, sea fish (and seafood), dairy products, eggs and iodized salt (usually 30 mcg of iodine per 1 gram of salt).
+Supplements are also available: with and without prescription at different doses (75 - 220 mcg iodine per tablet).
+
+Iodine deficiency is the most common cause of impaired, preventable cognitive development. Iodine deficiency disorders can also cause hypothyroidism, goitre and inhibition of physical growth and mental development resulting from severe iodine deficiency during pregnancy (keratinism). Even a slight deficiency during pregnancy, infancy and childhood can cause irreversible damage to the developing brain and nervous system, reducing the intellectual capacity of school-aged children and later stages.
+"
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="match_parent"
+                    android:layout_height="681dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="Vitamin D-
+It is recommended to takeuring at whole pregnancy and lactation period.
+It is recommended to take Vitamin D at doses of 400-200 international units (equivalent to 5-10 micrograms).
+Vitamin D is a fat-soluble vitamin produced in our bodies when exposed to the sun, to ultraviolet rays. Vitamin is naturally found in some foods.
+Nutritional Sources of Vitamin D: Fat fish like salmon, mackerel and sardines, red meat and egg yolk containing little vitamin D.
+ Enriched foods like some of the dairy products are a good and almost single source of vitamin D today, as well as vitamin-containing supplements.
+
+Vitamin D deficiency is known and documented in the general population and women in relatively high rates in recent years. It is also known that the need for vitamin D increases with pregnancy.
+Vitamin D participates in the absorption of calcium in the intestines and regulates the concentration of calcium and phosphate in the serum to ensure a desirable mineral level in the bones.  Additional roles are related to immune and muscle function and infection reduction. Vitamin D is associated with gene regulation. Today, a link between vitamin D deficiency and metabolic syndrome is identified. Evidence is also accumulating of other effects of vitamin D deficiency and it is therefore important to take it during pregnancy.
+"
+
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="477dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Folic acid supplement-
+During fertility years, every woman is recommended to consume 400 mg of folic acid each day at least one month before becoming pregnant. (In special situations, higher doses of folic acid should be considered, according to the procedure).
+During pregnancy, it is also recommended to continue consuming folate for proper fetal development and growth as well as to prevent anemia in the woman.
+In addition to the folic acid supplement, it is recommended to consume foods rich in natural folate (legumes) found in legumes, citrus fruits and green leafy vegetables.
+It is important to emphasize: Natural folate does not meet the needs for pregnancy, so supplemental folic acid is needed.
+Folic acid consumption is particularly important during the three months before pregnancy and during the first three months of pregnancy, as it significantly reduces (up to 70%) the risk of neural canal defects."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="347dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Folic acid is a Group B vitamin that is essential for DNA building, which is a basic component of every cell in the body. In the first few weeks of pregnancy, the body's organs, including the brain, develop. At this point, a defect in some cells may develop into a complete defect in the system. Malfunction of the neural canal,from which the brain and spine develop, can cause morbidity, permanent disability and even death of the fetus. The neural canal closes about three to four weeks after fertilization, hence the importance of pre-pregnancy folic acid intake and the first three months of pregnancy."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/part5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="646dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Iron supplement-
+It is recommended to take an iron supplement from the end of the third month of pregnancy to six weeks after birth - 30 mg daily. You can consume an iron and folic acid supplement.
+In addition to taking the iron supplement, it is recommended to eat rich animal and plant iron foods.
+Animal food: lean beef, turkey meat and mostly red turkey meat.
+Plant foods: Legumes of various kinds (eg beans, lentils, mash), oats, quinoa, dried fruits, tahini, almonds, nuts, grains.
+Important to know: Milk and its products, coffee and tea interfere with the absorption of iron, therefore advisable not to consume them together.
+
+Vitamin C drives iron absorption so it is recommended to take the iron supplement with foods that high in vitamin C foods:  tomato, pepper, kiwi, melon, cabbage. There are iron supplements on the market that are not affected by vitamin C.
+During pregnancy the woman needs more iron than usual due to the increase in blood volume and to meet the growing fetus needs. Iron deficiency can cause anemia in the woman and symptoms such as fatigue, weakness, headaches, difficulty in breathing and heart rate acceleration. In addition, during pregnancy, the embryonic iron reservoirs will be used to serve the newborn during the first months of life.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

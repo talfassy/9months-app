@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".highRiskArticle3">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hospital1"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Ziv Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital1_add"
+                    android:layout_width="400dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Rambam Street Tzfat"/>
+
+                <TextView
+                    android:id="@+id/hospital1_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.ziv.org.il"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/hospital2"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Galilee Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital2_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: 89 Road Nahariya"
+                    />
+                <TextView
+                    android:id="@+id/hospital2_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.gmc.org.il/"/>
+
+
+                <TextView
+                    android:id="@+id/hospital3"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Fede- Fourier Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital3_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: 768 Road Tiberias"
+                    />
+                <TextView
+                    android:id="@+id/hospital3_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.poria.health.gov.il"/>
+
+
+                <TextView
+                    android:id="@+id/hospital4"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Rambam Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital4_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: the second Aliyah street 8 Haifa"
+                    />
+                <TextView
+                    android:id="@+id/hospital4_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.rambam.org.il/departmentsandclinics/womenandobstetrics/"/>
+
+
+                <TextView
+                    android:id="@+id/hospital5"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Bnei Zion Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital5_add"
+                    android:layout_width="400dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: 47 Golomb Street Haifa"/>
+
+                <TextView
+                    android:id="@+id/hospital5_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="www.b-zion.org.il/pages/861.aspx"
+                    />
+
+
+                <TextView
+                    android:id="@+id/hospital6"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Carmel Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital6_add"
+                    android:layout_width="400dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Michal 7 Haifa"/>
+
+                <TextView
+                    android:id="@+id/hospital6_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="hospitals.clalit.co.il/carmel/he/Departments-and-Outpatient-Clinics-main/Clinical-departments-and-clinics/Obstetrics-and-Gynecology/Pregnancy-and-Birth/Birth/maternity-ward/Pages/maternity.aspx"
+                    />
+
+
+                <TextView
+                    android:id="@+id/hospital7"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Haamek Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital7_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Yitzhak Rabin Boulevard 21 Afula"
+                    />
+                <TextView
+                    android:id="@+id/hospital7_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="hy.health.gov.il"
+                    />
+
+
+                <TextView
+                    android:id="@+id/hospital8"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:text="Hillel yaffe Medical Center"
+                    />
+
+                <TextView
+                    android:id="@+id/hospital8_add"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="Address: Hashalom Street Hadera"
+                    />
+                <TextView
+                    android:id="@+id/hospital8_web"
+                    android:autoLink="all"
+                    android:clickable="true"
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="#555153"
+                    android:textSize="20dp"
+                    android:text="https://hospitals.clalit.co.il/emek/he/departmentsandclinics/women_Birth_department/moadon_yoldot_hila/Pages/maternity.aspx"
+                    />
+<LinearLayout
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    />
+
+                <Button
+                    android:id="@+id/returnBtn"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="return home page"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:background="#70FFA0C1"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

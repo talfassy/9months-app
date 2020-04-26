@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pregrent2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Image_Logo"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:background="#00FEFED4 "
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_PersonalArea"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="100px"
+        android:background="#00FEFED4 "
+        android:drawableStart="@drawable/person"
+        android:hint=" Personal area"
+        android:inputType="text"
+        android:shadowColor="#D2F8EF"
+        android:textColorHighlight="#FFEBCD"
+        android:textColorHint="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/WatchPersonalInfo"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:textColorHint="#FFFFFF"
+            android:background="#70E6BFFF"
+            android:drawableStart="@drawable/personalfile2"
+            android:hint="Watch my personal info"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+        <Button
+            android:id="@+id/photoAlbum"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100px"
+            android:background="#7099ccff"
+            android:drawableStart="@drawable/albumimage1"
+            android:textColorHint="#FFFFFF"
+            android:hint=" My photo album"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+        android:id="@+id/fruitSize"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100px"
+        android:background="#706AE6BD"
+        android:drawableStart="@drawable/size1"
+        android:textColorHint="#FFFFFF"
+        android:hint=" My fetus size"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    </FrameLayout>
+</LinearLayout>

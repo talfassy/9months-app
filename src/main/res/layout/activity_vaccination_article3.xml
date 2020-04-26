@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".vaccinationArticle3">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Flu vaccination during pregnancy"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Research-based facts about flu vaccine during pregnancy:"
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="399dp"
+                    android:layout_height="280dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="Influenza vaccine lowers the risk of premature birth and low birth weight-
+We never know when it will happen, but no one wants to give birth too soon. About 12,000 pregnant women participated in a Canadian study published in March 2014 in the Canadian Medical Association Journal, the study showed that flu vaccine reduces the risk of premature birth by 25%. In addition, the study showed that pregnant women who were vaccinated against influenza were 27% less likely to have a baby with a low birth weight.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="Flu vaccine is safe for pregnant women-
+It has already been proven that flu is a dangerous disease for pregnant women and that the vaccine against it is effective and lowers the chance of complications and newborn injury, but is the vaccine safe? The answer is - yes, it is safe to get vaccinated against the flu during pregnancy. Support for this can be found in a study published in February 2011 in the American Journal of Obstetrics and Gynecology. The study authors followed for 20 years pregnant women who were vaccinated against the flu, and found no abnormal patterns of pregnancy complications or pregnancy outcomes in pregnant women vaccinated against the flu."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="389dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="It is recommended that every pregnant woman, in any pregnancy, receive a flu vaccine.
+Pregnant women are at risk of getting seriously ill with the flu and suffering from its complications. That's why it's important for a pregnant woman to get the flu vaccine.
+A pregnant woman who is vaccinated against the flu during pregnancy vaccines not only herself but also the fetus. Infants whose mothers are vaccinated during pregnancy have less respiratory illness in general, less flu in particular, and fewer hospitalizations. Studies show that the flu vaccine given to pregnant women reduces the flu incidence of infants up to 6 months by 63%. Flu vaccine can be obtained at the HMO, free of charge.
+"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

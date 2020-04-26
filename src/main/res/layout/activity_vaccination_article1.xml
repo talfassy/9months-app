@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marbel"
+    android:orientation="vertical"
+    tools:context=".vaccinationArticle1">
+
+
+    <ImageButton
+        android:id="@+id/Image_Logo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="35dp"
+        android:background="#00000000"
+        android:shadowColor="#D2F8EF"
+        app:srcCompat="@drawable/mini_logo" />
+
+    <TextView
+        android:id="@+id/title_artical2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:hint="Vaccinations before pregnancy"
+        android:inputType="text"
+        android:textColorHint="#202020"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/part1"
+                    android:layout_width="399dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="5dp"
+                    android:text="Vaccines play an important role in maintaining the health of the woman and her fetus before pregnancy, during pregnancy, and after delivery."
+
+                    android:textColor="#000000"
+                    android:textSize="18dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/part2"
+                    android:layout_width="399dp"
+                    android:layout_height="159dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30sp"
+                    android:paddingLeft="30dp"
+                    android:text="For women of childbearing potential, especially women who are pregnant, it is advisable to check at 'Tipat-Halav' stations or at the attending physician about the recommended vaccines for all adults, and pregnant women in particular."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/prat3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="207dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="1. Vaccines against measles, mumps, rubella and chickenpox
+are recommended, so women who are planning to get pregnant are advised to check if they are vaccinated against these diseases.
+The vaccines against these diseases are live-attenuated vaccines and are not given during pregnancy, even for women who are not immune to the same diseases."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="376dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="There are health risks to the woman and the fetus if the woman becomes infected during these illnesses:
+Measles - A woman who gets measles during pregnancy is at higher risk of premature birth and miscarriage.
+Mumps - A woman with mumps in the first trimester of pregnancy is at increased risk of fetal death.
+Land - A woman who is in the soil during pregnancy may abort the fetus. In addition, there is a high risk that the baby will be born with severe defects including heart defects, eyes and brain.
+Chickenpox - A woman who has chickenpox during pregnancy is at increased risk of serious illness and complications such as pneumonia. In addition, there is a risk that the baby will be born with defects."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/part5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="156dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="2. Papilloma virus vaccine
+As part of the recommended vaccination routine for women of childbearing potential, women aged 9 - 26 are recommended to be vaccinated against the papillomavirus.
+Vaccination is not recommended during pregnancy."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/part6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="142dp"
+                    android:layout_gravity="left"
+                    android:paddingLeft="30dp"
+                    android:text="
+Vaccination against papillomavirus prevents most cervical cancers and a significant proportion of vulvar, vaginal, rectal, and oral and pharyngeal cancers. The vaccine also prevents genital warts."
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp">
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/testList"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to articles list"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/returnMainArticles"
+                    android:layout_width="330dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_marginHorizontal="100px"
+                    android:background="#95F5B5C3"
+                    android:hint="Return to the main articles page"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="600px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp">
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
